@@ -182,7 +182,7 @@ server.use(router);
 
 server.listen(PORT || 3000, () => {
 
-  console.log(`Customized JSON-Server is running at https://${HOSTNAME}:${PORT}`);
+  console.log(`Customized JSON-Server is running at http://${HOSTNAME}:${PORT}`);
 });
 
 module.exports = server;
