@@ -184,7 +184,7 @@ server.post([
 // Use default router (CRUDs of db.json)
 server.use(router);
 
-server.listen(PORT || 3000, () => {
+server.listen(PORT || 5000, () => {
 
   console.log(`Customized JSON-Server is running at http://${HOSTNAME}:${PORT}`);
 });
