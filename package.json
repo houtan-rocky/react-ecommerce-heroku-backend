@@ -7,7 +7,7 @@
   },
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node server.js -p $PORT",
     "test": "node test.js",
     "restart": "node test.js"
   },
