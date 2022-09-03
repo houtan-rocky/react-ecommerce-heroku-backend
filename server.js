@@ -1,4 +1,4 @@
-const PORT = process.env.port || 3000;
+const PORT = process.env.PORT || 5000;
 const HOSTNAME = 'localhost';
 
 require('dotenv').config();
@@ -184,7 +184,7 @@ server.post([
 // Use default router (CRUDs of db.json)
 server.use(router);
 
-server.listen(PORT || 5000, () => {
+server.listen(PORT, () => {
 
   console.log(`Customized JSON-Server is running at http://${HOSTNAME}:${PORT}`);
 });
